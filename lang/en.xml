@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+	<title>Digital Inovator - Innovation for Your Business</title>
+	<be>Be Inovator</be>
+	<menu>
+		<services>Services</services>
+		<portfolio>Portfolio</portfolio>
+		<about>About</about>
+		<hireme>Hire me</hireme>
+		<contact>Contact</contact>
+		<idiom>idiom</idiom>
+	</menu>
+
+	<buttons>
+		<vitae>download resume(Pt)</vitae>
+		<portfolio>See portfolio</portfolio>
+		<about>About</about>
+		<hireme>Hire me</hireme>
+		<send>Send</send>
+	</buttons>
+
+	<idiom>
+		<pt>Portuguese</pt>
+		<en>English</en>
+		<es>Spanish</es>
+	</idiom>
+
+	<pages>
+		<services>
+			<title>SERVICES</title>
+			<description>Services I can offer.</description>
+			<types>
+				<web>
+					<title>Web</title>
+					<description>Sites, Hot Sites, Web Systems, E-commerce, Social Networks, SEO (Search Engine Optmization).</description>
+				</web>
+				<image>
+					<title>Image and Video Editing</title>
+					<description>Treatment, corrections, special effects, vignettes, intros, makingoffs.</description>
+				</image>
+				<photo>
+					<title>Photography</title>
+					<description>Creative Photo Essays, Product photography, Business photography.</description>
+				</photo>
+
+			</types>
+		</services>
+		<portfolio>
+			<title>PORTFOLIO</title>
+			<description>Some of my works.</description>
+		</portfolio>
+
+		<about>
+			<title>ABOUT</title>
+			<description>"Everyone in this country should learn to program".</description>
+			<content><![CDATA[
+				<p class="text-muted"><img class="img-circle img-responsive" src="img/about/_MG_5549.jpg" alt="" width="200" style="float: left; margin-right: 10px"> Hello, how is it going? My name is Wesin Alves, I have a degree in Computer Engineering from the Federal University of Pará (2007) and a Master's degree in Electrical Engineering from the Federal University of Pará (2011). I am currently a student of the PhD course of the Graduate Program in Electrical Engineering - Federal University of Pará. I have experience in the area of Software Development for Web and Computational Intelligence, working mainly in the following topics: Machine Learning, Data Mining, Artificial Neural Networks, Atypical Detection, Reinforcement Learning, PHP, Java, PostgreSql, Mysql and UML.</p>
+
+                    <p class="text-muted">I have a fairly solid background in the area of computing covering several areas, but the focus of my activities over the years has been web development. I have been a developer in several state government agencies where I have always worked in this area. I have a dream of helping people connect through a digital initiative because I believe that the connected world is a better world.</p>
+
+                    <p class="text-muted">I agree with one of the phrases that Steve Jobs, one of the great digital innovators of the world, said: "Everyone in this country should learn how to program".</p>
+				]]></content>
+		</about>
+
+		<hireme>
+			<title>HIRE ME</title>
+			<description>Everyone needs to connect to the internet.</description>
+			<content><![CDATA[
+				<p class="text-muted"><img class="img-circle img-responsive" src="img/about/3.jpg" alt="" style="float: left; margin-right: 10px"> You can hire me to create your brand, website, system, visual identity, image editing, video creation, vignettes, intros, promotions, photo essays, product and business photography.</p>
+                    <p class="text-muted">I am available for remote jobs in freelance or home-office projects. I am also available for travel.</p> 
+                    <p class="text-muted">In freelance projects, I work such with a fixed amount per hour that per project. Feel free to contact me and ask questions about the process we use to develop our work or talk about an employment opportunity.</p> 
+				]]></content>
+		</hireme>
+
+		<contact>
+			<title>CONTACT</title>			
+			<description><![CDATA[Fill in the fields and click submit. Whatsapp: (+55 91) 98197-1595.]]></description>
+			<fields>
+				<name>Name *</name>
+				<email>Email *</email>
+				<phone>Phone *</phone>
+				<message>Tell me about your project, including some timeline and technological expectations *</message>
+				<budget>What is your project budget?</budget>
+			</fields>
+		</contact>
+	</pages>
+	<currency>US$ </currency>
+	<terms>
+		Terms
+	</terms>
+	<privacy>
+		Privacy policy
+	</privacy>
+
+	<phrases>
+		<phrase id='1'>
+			<content>Most good programmers do not program for money or for applause, they do it because it's fun to program</content>
+			<author>Linus Torvalds</author>
+		</phrase>
+		<phrase id='2'>
+			<content>Your idea will not matter if you can not convince someone.</content>
+			<author>Inovador Digital</author>
+		</phrase>
+
+		<phrase id='3'>
+			<content>Never stop at the first step. Otherwise, you'll never get to the top.</content>
+			<author>Inovador Digital</author>
+		</phrase>
+	</phrases>
+
+</text>

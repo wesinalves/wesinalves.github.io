@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+	<title>Innovador digital - Innovación para su negocio</title>
+	<be>Sea Innovador</be>
+	<menu>
+		<services>Servicios</services>
+		<portfolio>Portafolio</portfolio>
+		<about>Acerca de</about>
+		<hireme>Contráteme</hireme>
+		<contact>Contacto</contact>
+		<idiom>idioma</idiom>
+	</menu>
+
+	<buttons>
+		<vitae>Descargar Currículo(Pt)</vitae>
+		<portfolio>Ver portfolio</portfolio>
+		<about>Acerca de</about>
+		<hireme>Contráteme</hireme>
+		<send>Enviar</send>
+	</buttons>
+
+	<idiom>
+		<pt>Portugués</pt>
+		<en>Inglés</en>
+		<es>Español</es>
+	</idiom>
+
+	<pages>
+		<services>
+			<title>SERVICIOS</title>
+			<description>Servicios que puedo ofrecer.</description>
+			<types>
+				<web>
+					<title>Web</title>
+					<description>Sitios Web, Sitios Web, Sistemas Web, Comercio Electrónico, Redes Sociales, SEO (Search Engine Optmization).</description>
+				</web>
+				<image>
+					<title>Edición de imágenes y vídeos</title>
+					<description>Tratamiento, correcciones, efectos especiales, viñetas, intros, makingoffs.</description>
+				</image>
+				<photo>
+					<title>Fotografía</title>
+					<description>Ensayos Fotográficos creativos, Fotografía de productos, Fotografía empresarial.</description>
+				</photo>
+
+			</types>
+		</services>
+		<portfolio>
+			<title>PORTAFOLIO</title>
+			<description>Algunos de mis trabajos.</description>
+		</portfolio>
+
+		<about>
+			<title>ACERCA DE</title>
+			<description>"Todo el mundo en ese país debería aprender a programar".</description>
+			<content><![CDATA[
+				<p class="text-muted"><img class="img-circle img-responsive" src="img/about/_MG_5549.jpg" alt="" width="200" style="float: left; margin-right: 10px"> ¿Hola! Cómo estás? Mi nombre es Wesin Alves, poseo graduación en Ingeniería de la Computación por la Universidad Federal de Pará (2007) y maestría en Ingeniería Eléctrica por la Universidad Federal de Pará (2011). Actualmente soy estudiante del curso de doctorado del Programa de Posgrado en Ingeniería Eléctrica de la Universidad Federal de Pará. Tengo experiencia en el área de Desarrollo de Software para Web e Inteligencia Computacional, trabajando principalmente en los siguientes temas: Aprendizaje Automático, Minería de Datos, Redes Neuronales Artificiales, Detección Atípica, Aprendizaje de Refuerzo, PHP, Java, PostgreSql, Mysql y UML.</p>
+
+                    <p class="text-muted">Tengo una base bastante sólida en el área de informática que abarca varias áreas, pero el enfoque de mis actividades a lo largo de los años ha sido el desarrollo web. He sido desarrollador en varias agencias del gobierno estatal donde siempre he trabajado en esta área. Tengo el sueño de ayudar a las personas a conectarse a través de una iniciativa digital porque creo que el mundo conectado es un mundo mejor.</p>
+
+                    <p class="text-muted">Estoy de acuerdo con una de las frases que Steve Jobs, uno de los grandes innovadores digitales del mundo, dijo: "Todos en este país deberían aprender a programar".</p>
+				]]></content>
+		</about>
+
+		<hireme>
+			<title>CONTRÁTAME</title>
+			<description>Todos necesitan conectarse a internet.</description>
+			<content><![CDATA[
+				<p class="text-muted"><img class="img-circle img-responsive" src="img/about/3.jpg" alt="" style="float: left; margin-right: 10px"> Puede contratarme para crear su marca, sitio web, sistema, identidad visual, edición de imágenes, creación de videos, viñetas, intros, promociones, ensayos fotográficos, fotografía de productos y negocios.</p>
+                    <p class="text-muted">Estoy disponible para trabajos remotos en proyectos independientes u hogareños. También estoy disponible para viajar.</p> 
+                    <p class="text-muted">En proyectos independientes, trabajo con una cantidad fija por hora o por proyecto. No dude en ponerse en contacto conmigo y hacer preguntas sobre el proceso que utilizamos para desarrollar nuestro trabajo o hablar sobre una oportunidad de empleo.</p> 
+				]]></content>
+		</hireme>
+
+		<contact>
+			<title>CONTACTO</title>			
+			<description><![CDATA[Complete los campos y haga clic en enviar. Whatsapp: (+55 91) 98197-1595.]]></description>
+			<fields>
+				<name>Nombre *</name>
+				<email>Email *</email>
+				<phone>Teléfono *</phone>
+				<message>Cuéntame sobre tu proyecto, incluidos algunos plazos y expectativas tecnológicas *</message>
+				<budget>¿Cuál es el presupuesto de su proyecto?</budget>
+			</fields>
+		</contact>
+	</pages>
+	<currency>$ </currency>
+	<terms>
+		Condiciones
+	</terms>
+	<privacy>
+		Política de privacidad
+	</privacy>
+
+	<phrases>
+		<phrase id='1'>
+			<content>La mayoría de los buenos programadores no programan por dinero o por aplausos, lo hacen porque es divertido programar</content>
+			<author>Linus Torvalds</author>
+		</phrase>
+		<phrase id='2'>
+			<content>Tu idea no importará si no puedes convencer a alguien.</content>
+			<author>Innovador Digital</author>
+		</phrase>
+
+		<phrase id='3'>
+			<content>Never stop at the first step. Otherwise, you'll never get to the top.</content>
+			<author>Innovador Digital</author>
+		</phrase>
+	</phrases>
+
+</text>
