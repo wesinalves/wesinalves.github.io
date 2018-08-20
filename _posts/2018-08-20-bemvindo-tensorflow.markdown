@@ -9,7 +9,7 @@ Essa é uma série de 6 posts inspirado no livro *Deep learning with python* usa
 
 *Deep learning with python* introduz o campo de aprendizado profundo usando a linguagem Python e a biblioteca Keras. O autor do livro, François Chollet, é pesquisador do Google AI e criador da biblioteca Keras.
 
-Os tópicos que serão abordados nessa série são:
+Os seguintes tópicos serão abordados nessa série:
 1. Instalação do Tensorflow.
 2. Classificação básica.
 3. Classificação de texto.
