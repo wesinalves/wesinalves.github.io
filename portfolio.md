@@ -13,6 +13,6 @@ permalink: /portfolio/
 
 
 [memory]: https://memory.iec.gov.br
-[bvs]:   https://bvs.iec.gov.br
-[submit]: https://revista.iec.gov.br/submit
+[bvs]:   http://bvs.iec.gov.br
+[submit]: http://revista.iec.gov.br/submit
 [arquivo]: http://arquivo.iec.gov.br
