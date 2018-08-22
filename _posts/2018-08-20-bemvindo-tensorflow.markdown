@@ -4,6 +4,8 @@ title:  "Bem vindo(a) ao Tensorflow!"
 date:   2018-08-14 23:43:14 -0300
 categories: tensorflow
 ---
+![hire-me]({{"/assests/img/tensorflow-google.png"}})
+
 Tensorflow é uma biblioteca código aberto de aprendizado de máquina para pesquisa e produção. Tensorflow oferece APIs para iniciantes e especialistas desenvolverem para desktop, dispositivos móveis, web e cloud.
 Essa é uma série de 6 posts inspirado no livro *Deep learning with python* usando o pacote de alto nível `tf.keras` incluído no Tensorflow.
 
@@ -16,4 +18,7 @@ Os seguintes tópicos serão abordados nessa série:
 4. Regressão.
 5. Overfitting e underfitting
 6. Salvar e restaurar modelos.     
+
+Antes de seguir essa série, você precisa estar familiarizado com os conceitos de aprendizado de máquina. Uma boa referência é o [machine learning crash course] produzido pela google.
+
 
