@@ -19,6 +19,6 @@ Os seguintes tópicos serão abordados nessa série:
 5. Overfitting e underfitting
 6. Salvar e restaurar modelos.     
 
-Antes de seguir essa série, você precisa estar familiarizado com os conceitos de aprendizado de máquina. Uma boa referência é o [machine learning crash course] produzido pela google.
+Antes de seguir essa série, você precisa estar familiarizado com os conceitos de aprendizado de máquina. Uma boa referência é o [machine learning crash course] [couse]produzido pela google.
 
-
+[course]: https://developers.google.com/machine-learning/crash-course/ml-intro
