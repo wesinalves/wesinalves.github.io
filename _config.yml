@@ -24,6 +24,8 @@ twitter_username: wesinec
 github_username:  wesinalves
 instagram_username:  wesinalves
 facebook_username:  wesin.ribeiro
+# Google Analytics
+google_analytics: UA-124468197-1
 
 # Build settings
 markdown: kramdown
