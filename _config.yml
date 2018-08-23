@@ -26,6 +26,8 @@ instagram_username:  wesinalves
 facebook_username:  wesin.ribeiro
 # Google Analytics
 google_analytics: UA-124468197-1
+disqus:
+  shortname: wesinalves
 
 # Build settings
 markdown: kramdown
