@@ -66,6 +66,7 @@ Tensorboard é um conjunto de ferramentas web para inspeção, visualização e 
 Você pode plotar métricas como custo e acurácia durante a execução do treinamento, mostrar o histograma de como um tensor muda ao longo do tempo, mostrar dados adicionais, coletar metadados em tempo de execução, medir o consumo de memória ou o tamanho do tensor por nodos. 
 
 ![tensorboard]({{"/assests/img/posts/7tensorflow2.gif"}})
+#### Visualizador Tensorbaord
 
 Tensorboard faz a leitura de arquivos do Tensorflow que contém a informação sumária sobre o processo de treinamento. Esses arquivos podem ser gerados quando o Tensorflow está executando algum trabalho.
 O Tensorboad pode ser usado para comparar o desempenho de modelos que usam parametros diferentes para treinamento.
