@@ -8,7 +8,7 @@ categories: tensorflow
 
 ## O que é Tensorflow?
 
-Tensorflow é uma biblioteca código aberto de aprendizado de máquina para pesquisa e produção. Tensorflow oferece APIs (Application Programming Interface) para iniciantes e especialistas desenvolverem para desktop, dispositivos móveis, web e cloud.
+Tensorflow é uma biblioteca código aberto de aprendizado de máquina utilizado em pesquisas e produções científicas. Tensorflow oferece APIs (Application Programming Interface) para iniciantes e especialistas desenvolverem aplicações na área de inteligência artificial para desktop, dispositivos móveis, web e cloud.
 
 O Tensorflow foi criado com o propósito de realizar computação numérica usando grafos para fluxo de dados. Os nodos no grafo representam operações matemáticas, e as arestas representam as matrizes ou tensores de dados multidimensionais que se comunicam com os nodos. Sua arquitetura é flexível de modo que seja possível a implantação de aplicações a uma ou mais CPUs (Central Processing Unit) ou GPUs (Graphical Processing Unit) em um computador, servidor ou dispositivo móvel utilizando uma única API.
 
