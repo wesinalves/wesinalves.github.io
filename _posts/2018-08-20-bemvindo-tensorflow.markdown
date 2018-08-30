@@ -78,11 +78,11 @@ Quer aprender mais sobre o Tensorflow? Então, adicione essa página aos seus fa
 
 Os seguintes tópicos serão abordados nessa série:
 1. [Instalação do Tensorflow][instalacao].
-	1.1. [parte 1 - instalando o Tensorflow no Ubuntu] [ubuntu]
-	1.2. [parte 2 - instalando o Tensorflow no macOs] 
-	1.3. [parte 3 - instalando o Tensorflow no Windows] 
-	1.4. [parte 4 - instalando o Tensorflow no Raspberry Pi] 
-	1.5. [parte 5 - instalando o Tensorflow a partir do fonte] 
+1.1. [parte 1 - instalando o Tensorflow no Ubuntu] [ubuntu]
+1.2. [parte 2 - instalando o Tensorflow no macOs] 
+1.3. [parte 3 - instalando o Tensorflow no Windows] 
+1.4. [parte 4 - instalando o Tensorflow no Raspberry Pi] 
+1.5. [parte 5 - instalando o Tensorflow a partir do fonte] 
 2. Classificação básica.
 3. Classificação de texto.
 4. Regressão.
