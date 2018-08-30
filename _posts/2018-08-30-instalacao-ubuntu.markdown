@@ -28,7 +28,8 @@ Existem algumas opções para instalar o TensorFlow em sua máquina:
 * [Usando `pip` no Anaconda](#goto-4)<a id="toc-4"></a>
 * [Instalando o TensorFlow a partir da fonte](#goto-5)<a id="toc-5"></a>
 
-<a id="goto-1"></a>### Usando `pip` em um ambiente virtual [↑](#toc-1)
+<a id="goto-1"></a>
+### Usando `pip` em um ambiente virtual [↑](#toc-1)
 
 A ferramenta [Virtualenv][virtual] cria ambientes virtuais em Python que são isolados de outros ambientes de desenvolvimentos em Python na mesma máquina. Nesse cenário, você instala o Tensorflow e suas dependências em um ambiente virtual que está disponível quando for ativado. O Virtualenv fornece uma maneira confiável de instalar e executar o TensorFlow, evitando conflitos com o restante do sistema.
 
