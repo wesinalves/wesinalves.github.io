@@ -4,7 +4,7 @@ title:  "Instalando o Tensorflow no Ubuntu"
 date:   2018-08-30 15:00:14 -0300
 categories: tensorflow
 ---
-![hire-me]({{"/assests/img/posts/ubuntu-logo14.png"}})
+![ubunutu]({{"/assests/img/posts/uuntu-logo14.png"}})
 ##### Sistema operacional Ubuntu.
 
 ## Instalação do Tensorflow

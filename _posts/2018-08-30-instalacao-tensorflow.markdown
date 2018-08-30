@@ -4,7 +4,7 @@ title:  "Instalando o Tensorflow - apresentação"
 date:   2018-08-30 14:37:14 -0300
 categories: tensorflow
 ---
-![hire-me]({{"/assests/img/posts/salvadordali.jpg"}})
+![dali]({{"/assests/img/posts/salvadordali.jpg"}})
 ##### Obra de Salvador Dalí. Se você sabe o nome desse quadro, por favor, coloque nos comentários.
 
 ## Instalação do Tensorflow
