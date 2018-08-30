@@ -77,7 +77,12 @@ Quer aprender mais sobre o Tensorflow? Então, adicione essa página aos seus fa
 *Deep learning with python* introduz o campo de aprendizado profundo usando a linguagem Python e a biblioteca Keras. O autor do livro, François Chollet, é pesquisador do Google AI e criador da biblioteca Keras.
 
 Os seguintes tópicos serão abordados nessa série:
-1. Instalação do Tensorflow.
+1. [Instalação do Tensorflow][instalacao].
+	1.1. [parte 1 - instalando o Tensorflow no Ubuntu] [ubuntu]
+	1.2. [parte 2 - instalando o Tensorflow no macOs] 
+	1.3. [parte 3 - instalando o Tensorflow no Windows] 
+	1.4. [parte 4 - instalando o Tensorflow no Raspberry Pi] 
+	1.5. [parte 5 - instalando o Tensorflow a partir do fonte] 
 2. Classificação básica.
 3. Classificação de texto.
 4. Regressão.
@@ -88,6 +93,8 @@ Antes de continuar, você precisa estar familiarizado com os conceitos de aprend
 
 Ficou com alguma dúvida sobre o Tensorflow? Você já utiliza essa biblioteca em seus projetos de aprendizado profundo? Deixe sua dúvida nos comentários abaixo. Ajude-me a compartilhar esse conteúdo com outras pessoas.
 
+[instalacao]: https://wesinalves.github.io/tensorflow/2018/08/30/instalacao-tensorflow.html
+[ubuntu]: https://wesinalves.github.io/tensorflow/2018/08/30/instalacao-ubuntu.html
 [course]: https://developers.google.com/machine-learning/crash-course/ml-intro
 [inception]: https://www.tensorflow.org/hub/tutorials/image_retraining
 [repo]: https://github.com/tensorflow/models
