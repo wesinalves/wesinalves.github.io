@@ -16,8 +16,11 @@
 title: Wesin Alves
 email: wesinec@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Eu sou o Inovador Digital e quero te ajudar a inovar também. Saia do básico, seja inovador, seja digital. 
-  Sua ideia não terá nenhuma importância se você não for capaz de convencer alguém.
+  Nunca é tarde para ter um novo sonho. Não permita que ninguém destrua os seus.
+  Pois, sonhar é o primeiro passo para realização de um sonho. 
+  Um sonho que se sonha junto com outras pessoas tem mais chances de ser realizado. 
+  Então, vamos sonhar juntos?
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wesinalves.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wesinec
