@@ -23,7 +23,7 @@ As seguintes variantes do TensorFlow estão disponíveis para instalação:
 ## Como instalar o Tensorflow
 Existem algumas opções para instalar o TensorFlow em sua máquina:
 * [Usando `pip` em um ambiente virtual (recomendado)](#goto-1)<a id="toc-1"></a>
-* [Usando `pip` em seu ambiente de sistema](#goto-2)<a id="toc-2"></a>
+* [Usando `pip` em seu sistema](#goto-2)<a id="toc-2"></a>
 * [Configurando um contêiner do Docker](#goto-3)<a id="toc-3"></a>
 * [Usando `pip` no Anaconda](#goto-4)<a id="toc-4"></a>
 * [Instalando o TensorFlow a partir da fonte](#goto-5)<a id="toc-5"></a>
@@ -118,7 +118,80 @@ deactivate  # stop the virtualenv
 rm -r ~/tensorflow/venv
 ```
 
+<a id="goto-2"></a>
+### Usando `pip` em seu sistema [↑](#toc-2)
+
+Use o pip para instalar o pacote TensorFlow diretamente em seu sistema sem usar um contêiner ou ambiente virtual para isolamento. Esse método é recomendado para administradores de sistemas que desejam uma instalação do TensorFlow que esteja disponível para todos em um sistema multiusuário.
+
+Como uma instalação do sistema não é isolada, ela poderia interferir em outras instalações baseadas em Python. Mas se você entender o pip e seu ambiente Python, uma instalação de pip do sistema é tranquila.
+
+**1. Instale o Python, `pip` e o VirtualEnv**
+No Ubuntu, o Python é instalado automaticamente assim como o `pip`. Para confirmar as versões em python e pip, digite as seguintes linha no shell:
+
+```
+python -V  # or: python3 -V
+pip -V     # or: pip3 -V
+```
+
+Para instalação desses pacotes, faça o seguinte:
+
+```
+sudo apt-get install python-pip python-dev python-virtualenv   # for Python 2.7
+sudo apt-get install python3-pip python3-dev python-virtualenv # for Python 3.n
+```
+
+Recomenda-se usar o pip versão 8.1 ou superior. Se estiver usando uma versão antes de 8.1, atualize o pip:
+
+
+```
+sudo pip install -U pip
+```
+
+**2. Atualize o `pip` em seu sistema**
+
+```
+(venv)$ sudo pip install -U pip
+```
+
+
+**3. Instalar o Tensorflow no ambiente virtual**
+Escolha um dos pacotes TensorFlow disponíveis para instalação:
+
+* tensorflow — Versão atual para CPU
+* tensorflow-gpu — Versão atual para GPU
+* tf-nightly — Versão diária para CPU
+* tf-nightly-gpu — Versão diária para GPU
+
+Use pip para instalar o pacote:
+```
+sudo pip install -U tensorflow   # Python 2.7
+sudo pip3 install -U tensorflow  # Python 3.n
+```
+
+Use `pip list` para mostrar os pacotes instalados no ambiente virtual. Valide a instalação e teste a versão:
+```
+(venv)$ python -c "import tensorflow as tf; print(tf.__version__)"
+```
+Use o comando `deactivate` para parar o ambiente virtual do Python.
+
+**Possíveis problemas**
+Se as etapas acima falharam, tente instalar o pacote binário do TensorFlow usando o URL remoto do pacote `pip`:
+```
+(venv)$ sudo pip install --upgrade remote-pkg-URL   # Python 2.7
+(venv)$ sudo pip3 install --upgrade remote-pkg-URL  # Python 3.n
+```
+
+Veja a [lista de problemas mais comuns][problemas] da documentação oficial se você encontrar problemas na instalação.
+
+**Desinstalar o Tensorflow**
+Para desinstalar o TensorFlow de seu sistema, use um dos seguintes comandos:
+```
+sudo pip uninstall tensorflow   # for Python 2.7
+sudo pip3 uninstall tensorflow  # for Python 3.n
+```
+
 continua...
+
 
 [virtual]: https://virtualenv.pypa.io/en/stable/
 [problemas]: https://www.tensorflow.org/install/install_linux#common_installation_problems
