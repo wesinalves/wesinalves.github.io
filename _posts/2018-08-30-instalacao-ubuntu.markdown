@@ -125,7 +125,7 @@ Use o pip para instalar o pacote TensorFlow diretamente em seu sistema sem usar 
 
 Como uma instalação do sistema não é isolada, ela poderia interferir em outras instalações baseadas em Python. Mas se você entender o pip e seu ambiente Python, uma instalação de pip do sistema é tranquila.
 
-**1. Instale o Python, `pip` e o VirtualEnv**
+**1. Instale o Python, `pip`**
 No Ubuntu, o Python é instalado automaticamente assim como o `pip`. Para confirmar as versões em python e pip, digite as seguintes linha no shell:
 
 ```
@@ -154,7 +154,7 @@ sudo pip install -U pip
 ```
 
 
-**3. Instalar o Tensorflow no ambiente virtual**
+**3. Instalar o Tensorflow em seu sistema**
 Escolha um dos pacotes TensorFlow disponíveis para instalação:
 
 * tensorflow — Versão atual para CPU
