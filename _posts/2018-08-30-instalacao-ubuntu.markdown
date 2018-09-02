@@ -172,7 +172,6 @@ Use `pip list` para mostrar os pacotes instalados no ambiente virtual. Valide a 
 ```
 (venv)$ python -c "import tensorflow as tf; print(tf.__version__)"
 ```
-Use o comando `deactivate` para parar o ambiente virtual do Python.
 
 **Possíveis problemas**
 Se as etapas acima falharam, tente instalar o pacote binário do TensorFlow usando o URL remoto do pacote `pip`:
