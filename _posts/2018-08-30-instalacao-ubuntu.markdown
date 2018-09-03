@@ -135,8 +135,8 @@ pip -V     # or: pip3 -V
 Para instalação desses pacotes, faça o seguinte:
 
 ```
-sudo apt-get install python-pip python-dev python-virtualenv   # for Python 2.7
-sudo apt-get install python3-pip python3-dev python-virtualenv # for Python 3.n
+sudo apt-get install python-pip python-dev   # for Python 2.7
+sudo apt-get install python3-pip python3-dev # for Python 3.n
 ```
 
 Recomenda-se usar o pip versão 8.1 ou superior. Se estiver usando uma versão antes de 8.1, atualize o pip:
