@@ -26,7 +26,6 @@ Existem algumas opções para instalar o TensorFlow em sua máquina:
 * [Usando `pip` em seu sistema](#goto-2)<a id="toc-2"></a>
 * [Configurando um contêiner do Docker](#goto-3)<a id="toc-3"></a>
 * [Usando `pip` no Anaconda](#goto-4)<a id="toc-4"></a>
-* [Instalando o TensorFlow a partir da fonte](#goto-5)<a id="toc-5"></a>
 
 <a id="goto-1"></a>
 ### Usando `pip` em um ambiente virtual [↑](#toc-1)
@@ -189,8 +188,101 @@ sudo pip uninstall tensorflow   # for Python 2.7
 sudo pip3 uninstall tensorflow  # for Python 3.n
 ```
 
+<a id="goto-3"></a>
+### Configurando um container do Docker [↑](#toc-3)
+O Docker isola completamente a instalação do TensorFlow de pacotes pré-existentes em sua máquina. O contêiner do Docker contém o TensorFlow e todas as suas dependências, isso pode deixar a instalação um pouco pesada. Você pode optar pela instalação via Docker se estiver incorporando o TensorFlow em uma arquitetura de aplicativo maior que já usa o Docker.
+
+Siga os seguintes passos para instalar o TensorFlow através do Docker:
+
+1. Instale o Docker na sua máquina, conforme descrito na documentação do Docker, que pode ser encontrada facilmente pesquisando no Google. 
+2. Opcionalmente, crie um grupo do Linux chamado docker para permitir a inicialização de contêineres sem o sudo, conforme descrito na documentação do Docker. (Se você não fizer este passo, você terá que usar o sudo toda vez que invocar o Docker.)
+3. Para instalar uma versão do TensorFlow que suporte GPUs, você deve primeiro instalar o nvidia-docker, que é armazenado no github.
+4. Ative um contêiner do Docker que contenha uma das imagens [binárias do TensorFlow][binary].
+
+O restante desta seção explica como iniciar um contêiner do Docker.
+
+#### Somente CPU
+Para iniciar um contêiner Docker com suporte apenas à CPU (ou seja, sem suporte a GPU), insira um comando do seguinte formato:
+```
+$ docker run -it -p hostPort:containerPort TensorFlowCPUImage
+```
+
+É importante destacar que o parâmetro `-p hostPort: containerPort` é opcional. Se você planeja executar programas do TensorFlow a partir do shell, omita essa opção. Se você planeja executar programas TensorFlow como notebooks Jupyter, defina hostPort e containerPort como 8888. Se desejar executar o TensorBoard dentro do contêiner, adicione um segundo sinalizador `-p`, configurando hostPort e containerPort como 6006.
+
+Em contrapartida, o parâmetro `TensorFlowCPUImage` é necessário. Ele identifica o contêiner do Docker. Especifique um dos seguintes valores:
+* tensorflow / tensorflow, que é a imagem binária da CPU do TensorFlow.
+* tensorflow / tensorflow: latest-devel, que é a última imagem binária do CPU TensorFlow mais o código fonte.
+* tensorflow / tensorflow: version, que é a versão especificada (por exemplo, 1.1.0rc1) da imagem binária da CPU do TensorFlow.
+* tensorflow / tensorflow: version-devel, que é a versão especificada (por exemplo, 1.1.0rc1) da imagem binária da CPU TensorFlow mais o código fonte.
+
+Por exemplo, o seguinte comando lança a imagem binária da CPU mais recente do TensorFlow em um contêiner do Docker a partir do qual você pode executar programas do TensorFlow em um shell:
+```
+$ docker run -it tensorflow/tensorflow bash
+```
+Entretanto, se você quiser ativar a ultima imagem do binária da CPU mais recente do Tensorflow que rode em um Jupiter notebook, use o seguinte comando:
+```
+$ docker run -it -p 8888:8888 tensorflow/tensorflow
+```
+
+O Docker baixará a imagem binária do TensorFlow na primeira vez que você a iniciar.
+
+#### suporte à GPU 
+Para iniciar um contêiner Docker com suporte à GPU NVidia, use um comando do seguinte formato (isso não requer instalação local CUDA):
+```
+$ nvidia-docker run -it -p hostPort:containerPort TensorFlowGPUImage
+```
+
+É importante destacar que o parâmetro `-p hostPort: containerPort` é opcional. Se você planeja executar programas do TensorFlow a partir do shell, omita essa opção. Se você planeja executar programas TensorFlow como notebooks Jupyter, defina hostPort e containerPort como 8888.
+
+Em contrapartida, o parâmetro `TensorFlowGPUImage` é necessário. Ele identifica o contêiner do Docker. Especifique um dos seguintes valores:
+* tensorflow / tensorflow: latest-gpu, que é a imagem binária da GPU do TensorFlow.
+* tensorflow / tensorflow: latest-devel-gpu, que é a última imagem binária do GPU TensorFlow mais o código fonte.
+* tensorflow / tensorflow: version-gpu, que é a versão especificada (por exemplo, 1.1.0rc1) da imagem binária da GPU do TensorFlow.
+* tensorflow / tensorflow: version-devel-gpu, que é a versão especificada (por exemplo, 1.1.0rc1) da imagem binária da GPU TensorFlow mais o código fonte.
+
+Alguns exemplos:
+```
+$ nvidia-docker run -it tensorflow/tensorflow:latest-gpu bash
+$ nvidia-docker run -it -p 8888:8888 tensorflow/tensorflow:latest-gpu
+$ nvidia-docker run -it -p 8888:8888 tensorflow/tensorflow:0.12.1-gpu
+```
+
+Também para o suporte a GPU, o O Docker fará o download da imagem binária TensorFlow na primeira vez que você a iniciar.
+
+<a id="goto-4"></a>
+### Usando `pip` no Anaconda [↑](#toc-4)
+
+O Anaconda fornece o utilitário conda para criar um ambiente virtual. No entanto, dentro do Anaconda, recomendamos a instalação do TensorFlow usando o comando pip install e não com o comando conda install.
+A documentação oficial do TensorFlow alerta que esse utilitário é um serviço oferecido pela comunidade e que não é mantido oficialmente pela equipe do Tensorflow, então você deve instalá-lo por sua conta e risco.
+
+Siga os seguintes passos para instalar o TensorFlow em um ambiente Anaconda:
+1. Siga as instruções no site de download do Anaconda para a instalação.
+2. Crie um ambiente conda chamado tensorflow para executar uma versão do Python, através do seguinte comando:
+```
+$ conda create -n tensorflow pip python=2.7 # or python=3.3, etc.
+```
+3. Ative o ambiente conda com seguinte comando:
+```
+$ source activate tensorflow
+ (tensorflow)$  # Your prompt should change 
+```
+
+Digite um comando do seguinte formato para instalar o TensorFlow dentro do seu ambiente conda:
+```
+(tensorflow)$ pip install --ignore-installed --upgrade tfBinaryURL
+```
+
+em que `tfBinaryURL` é a URL do pacote do TensorFlow em Python. Por exemplo, o comando a seguir instala a versão somente da CPU do TensorFlow for Python 3.4:
+```
+(tensorflow)$ pip install --ignore-installed --upgrade 
+
+ https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.10.1-cp34-cp34m-linux_x86_64.whl
+```
+
+
 continua...
 
 
 [virtual]: https://virtualenv.pypa.io/en/stable/
 [problemas]: https://www.tensorflow.org/install/install_linux#common_installation_problems
+[binary]: https://hub.docker.com/r/tensorflow/tensorflow/tags/
