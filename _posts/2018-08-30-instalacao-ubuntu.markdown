@@ -279,8 +279,41 @@ em que `tfBinaryURL` é a URL do pacote do TensorFlow em Python. Por exemplo, o 
  https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.10.1-cp34-cp34m-linux_x86_64.whl
 ```
 
+## Valide sua instalação
+1. Certifique-se de que seu ambiente esteja preparado para executar programas do TensorFlow.
+2. Execute um programa curto do TensorFlow.
 
-continua...
+Se você instalou no pip nativo, Virtualenv ou Anaconda, faça o seguinte:
+1. Abra um terminal.
+2. Se você instalou com o Virtualenv ou o Anaconda, ative seu contêiner.
+3. Se você instalou o código-fonte do TensorFlow, navegue até qualquer diretório, exceto um que contenha o código-fonte do TensorFlow.
+
+Se você instalou pelo Docker, inicie um contêiner do Docker a partir do qual você pode executar o bash. Por exemplo:
+```
+$ docker run -it tensorflow/tensorflow bash
+```
+
+Então, invoque python do seu shell da seguinte maneira:
+```
+$ python
+```
+Digite o seguinte programinha dentro do shell interativo do python:
+
+```python
+# Python
+import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+print(sess.run(hello))
+```
+
+Se o sistema gerar o seguinte, você estará pronto para começar a escrever os programas do TensorFlow:
+```
+Hello, TensorFlow!
+```
+
+Se o sistema emitir uma mensagem de erro em vez de uma saudação, consulte os [problemas comuns de instalação][problemas] na documentação oficial
+
 
 
 [virtual]: https://virtualenv.pypa.io/en/stable/
