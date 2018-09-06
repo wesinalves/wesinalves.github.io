@@ -312,7 +312,7 @@ Se o sistema gerar o seguinte, você estará pronto para começar a escrever os 
 Hello, TensorFlow!
 ```
 
-Se o sistema emitir uma mensagem de erro em vez de uma saudação, consulte os [problemas comuns de instalação][problemas] na documentação oficial
+Se o sistema emitir uma mensagem de erro em vez de uma saudação, consulte os [problemas comuns de instalação][problemas] na documentação oficial.
 
 
 
