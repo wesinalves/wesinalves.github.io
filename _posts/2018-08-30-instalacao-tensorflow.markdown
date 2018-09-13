@@ -34,8 +34,8 @@ Apenas a versão em Python será considerada nesse guia. Se você estiver intere
 
 
 [ubuntu]: https://wesinalves.github.io/tensorflow/2018/08/30/instalacao-ubuntu.html
-[macOs]
-[windows]
+[macOs]: https://wesinalves.github.io/tensorflow/2018/09/05/instalacao-mac.html
+[windows]: https://wesinalves.github.io/tensorflow/2018/09/13/instalacao-windows.html
 [raspberry]
 [source]
 

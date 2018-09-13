@@ -227,5 +227,5 @@ Se o sistema emitir uma mensagem de erro em vez de uma saudação, consulte os [
 
 
 [virtual]: https://virtualenv.pypa.io/en/stable/
-[problemas]: https://www.tensorflow.org/install/install_linux#common_installation_problems
+[problemas]: https://www.tensorflow.org/install/install_mac#common_installation_problems
 [binary]: https://hub.docker.com/r/tensorflow/tensorflow/tags/
