@@ -4,7 +4,7 @@ title:  "Instalando o Tensorflow no Windows"
 date:   2018-09-13 15:32:14 -0300
 categories: tensorflow
 ---
-![ubunutu]({{"/assests/img/posts/Microsoft10.jpg"}})
+![windows]({{"/assests/img/posts/Microsoft10.jpg"}})
 ##### Sistema operacional Windows.
 
 ## Instalação do Tensorflow

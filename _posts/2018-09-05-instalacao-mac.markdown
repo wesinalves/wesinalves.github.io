@@ -4,7 +4,7 @@ title:  "Instalando o Tensorflow no macOs"
 date:   2018-09-05 15:00:14 -0300
 categories: tensorflow
 ---
-![ubunutu]({{"/assests/img/posts/macoshero.jpg"}})
+![macos]({{"/assests/img/posts/macoshero.jpg"}})
 ##### Sistema operacional macOs.
 
 ## Instalação do Tensorflow
