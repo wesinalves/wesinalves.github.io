@@ -4,7 +4,7 @@ title:  "Instalando o Tensorflow no Raspbian"
 date:   2018-09-13 15:32:14 -0300
 categories: tensorflow
 ---
-![respbian]({{"/assests/img/posts/Microsoft10.jpg"}})
+![respbian]({{"/assests/img/posts/install_tensorflow_on_raspberry_pi.jpg"}})
 ##### Sistema operacional Raspbian.
 
 ## Instalação do Tensorflow
