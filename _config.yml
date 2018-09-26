@@ -18,8 +18,8 @@ email: wesinec@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   O que é Inteligência Artificial? É o campo de estudo da ciência da computação que busca explicar
   e simular o comportamento inteligente em termos de processos computacionais. A Inteligência Artificial vem transformando o modo de viver das
-  pessoas comuns e é considerada como um dos pilares da quarta revolução industrial. Para saber mais detalhes sobre
-  o assunto, acompanhe nosso blog.
+  pessoas comuns e é considerada como um dos pilares da quarta revolução industrial. Aqui, você encontra artigos técnicos, notícias e novidades sobre
+  esse assunto. Acompanhe nosso blog para ficar conectado ao mundo da Inteligência Artificial.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wesinalves.github.io" # the base hostname & protocol for your site, e.g. http://example.com
