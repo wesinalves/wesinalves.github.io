@@ -16,10 +16,10 @@
 title: Wesin Alves
 email: wesinec@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Nunca é tarde para ter um novo sonho. Não permita que ninguém destrua os seus.
-  Pois, sonhar é o primeiro passo para realização de um sonho. 
-  Um sonho que se sonha junto com outras pessoas tem mais chances de ser realizado. 
-  Então, vamos sonhar juntos?
+  O que é Inteligência Artificial (IA)? É o campo de estudo da ciência da computação que busca explicar
+  e simular o comportamento inteligente em termos de processos computacionais. A IA vem transformando o modo de viver das
+  pessoas comuns e é considerada como um dos pilares da quarta revolução industrial. Para saber mais detalhes sobre
+  o assunto, acesse nosso blog.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wesinalves.github.io" # the base hostname & protocol for your site, e.g. http://example.com

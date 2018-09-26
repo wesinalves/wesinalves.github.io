@@ -4,4 +4,4 @@
 
 layout: home
 ---
-![main banner]({{"/assests/img/header-bg.jpg"}})
+![main banner]({{"/assests/img/grid-AI.jpg"}})
