@@ -79,10 +79,9 @@ Quer aprender mais sobre o Tensorflow? Então, adicione essa página aos seus fa
 Os seguintes tópicos serão abordados nessa série:
 1. [Instalação do Tensorflow][instalacao].
  - [parte 1 - instalando o Tensorflow no Ubuntu] [ubuntu]
- - [parte 2 - instalando o Tensorflow no macOs] 
- - [parte 3 - instalando o Tensorflow no Windows] 
- - [parte 4 - instalando o Tensorflow no Raspberry Pi] 
- - [parte 5 - instalando o Tensorflow a partir do fonte] 
+ - [parte 2 - instalando o Tensorflow no macOs] [macOs]
+ - [parte 3 - instalando o Tensorflow no Windows] [windows]
+ - [parte 4 - instalando o Tensorflow no Raspberry Pi] [raspberry]
 2. Classificação básica.
 3. Classificação de texto.
 4. Regressão.
@@ -95,6 +94,9 @@ Ficou com alguma dúvida sobre o Tensorflow? Você já utiliza essa biblioteca e
 
 [instalacao]: https://wesinalves.github.io/tensorflow/2018/08/30/instalacao-tensorflow.html
 [ubuntu]: https://wesinalves.github.io/tensorflow/2018/08/30/instalacao-ubuntu.html
+[macOs]: https://wesinalves.github.io/tensorflow/2018/09/05/instalacao-mac.html
+[windows]: https://wesinalves.github.io/tensorflow/2018/09/13/instalacao-windows.html
+[raspberry]: https://wesinalves.github.io/tensorflow/2018/09/13/instalacao-raspbian.html
 [course]: https://developers.google.com/machine-learning/crash-course/ml-intro
 [inception]: https://www.tensorflow.org/hub/tutorials/image_retraining
 [repo]: https://github.com/tensorflow/models

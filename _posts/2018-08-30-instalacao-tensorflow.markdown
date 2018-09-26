@@ -24,7 +24,6 @@ Este guia de instalação será dividido 5 partes para não ficar muito longo:
 * [parte 2 - instalando o Tensorflow no macOs] [macOs]
 * [parte 3 - instalando o Tensorflow no Windows] [windows]
 * [parte 4 - instalando o Tensorflow no Raspberry Pi] [raspberry]
-* [parte 5 - instalando o Tensorflow a partir do fonte] [source]
 
 Apenas a versão em Python será considerada nesse guia. Se você estiver interessado em outras linguagens de programação, por favor, siga a documentação oficial nos links abaixo:
 
@@ -36,8 +35,7 @@ Apenas a versão em Python será considerada nesse guia. Se você estiver intere
 [ubuntu]: https://wesinalves.github.io/tensorflow/2018/08/30/instalacao-ubuntu.html
 [macOs]: https://wesinalves.github.io/tensorflow/2018/09/05/instalacao-mac.html
 [windows]: https://wesinalves.github.io/tensorflow/2018/09/13/instalacao-windows.html
-[raspberry]
-[source]
+[raspberry]: https://wesinalves.github.io/tensorflow/2018/09/13/instalacao-raspbian.html
 
 [java]: https://www.tensorflow.org/install/install_java
 [c]: https://www.tensorflow.org/install/install_c
