@@ -12,12 +12,12 @@ Tensorflow é uma biblioteca código aberto de aprendizado de máquina utilizado
 
 O Tensorflow foi criado com o propósito de realizar computação numérica usando grafos para fluxo de dados. Os nodos no grafo representam operações matemáticas, e as arestas representam as matrizes ou tensores de dados multidimensionais que se comunicam com os nodos. Sua arquitetura é flexível de modo que seja possível a implantação de aplicações a uma ou mais CPUs (Central Processing Unit) ou GPUs (Graphical Processing Unit) em um computador, servidor ou dispositivo móvel utilizando uma única API.
 
-O Tensorflow foi desenvolvido por engenheiros e pesquisadores do Google Braim Team no departamento de pesquisas de inteligência de máquina do Google com o propósito de realiar pesquisas com redes neurais profundas e aprendizado de máquina. Devido a sua abrangência, o Tensorflow pode ser aplicado a vários domínios.
+O Tensorflow foi desenvolvido por engenheiros e pesquisadores do Google Braim Team no departamento de pesquisas de inteligência de máquina do Google com o propósito de realizar pesquisas com redes neurais profundas e aprendizado de máquina. Devido a sua abrangência, o Tensorflow pode ser aplicado a vários domínios.
 
 ![tensorflow]({{"/assests/img/tensorflow_programming_environment.png"}})
 ##### Imagem extraída de Google.com
 
-Na base dessa biblioteca, encontra-se o motor de execução distribuído que é responsável pela abstração de hardware onde a biblioteca será executada. Essa base é composta por um núcleo de alta desempenho escrito na linguagem C++.
+Na base dessa biblioteca, encontra-se o motor de execução distribuído que é responsável pela abstração de hardware onde a biblioteca será executada. Essa base é composta por um núcleo de alto desempenho escrito na linguagem C++.
 
 Acima da base está a API de baixo nível em várias linguagens como Python, C++, Javascript e Go, mas só a linguagem Python é a versão com garantia de estabilidade e é a mais fácil de ser utilizada.
 
@@ -35,7 +35,7 @@ Na versão atual do Tensorflow, você escreve um código para construir um grafo
 * É transformável e otimizável, pois o gráfo pode ser transformado para produzir uma versão mais otimizada para uma determinada plataforma. Além disso, otimizações de memória ou de computação podem ser realizadas, bem como compensações entre elas. Isso é útil, por exemplo, quando se faz inferência móvel de maneira mais rápida após o treinamento em máquinas mais robustas.
 * Suporte a execução distribuída.
 
-### Execução anciosa.
+### Execução ávida.
 
 A execução anciosa (Eager Execution) é um estilo imperativo de escrever códigos no Tensorflow. Quando a execução anciosa está habilitada, você estará executando o sobre o núcleo do Tensorflow, ao invés de de criar grafos para serem executados posteriormente.
 Isso é importante por algumas resões:
@@ -69,7 +69,7 @@ Você pode plotar métricas como custo e acurácia durante a execução do trein
 ##### Visualizador Tensorbaord
 
 Tensorboard faz a leitura de arquivos do Tensorflow que contém a informação sumária sobre o processo de treinamento. Esses arquivos podem ser gerados quando o Tensorflow está executando algum trabalho.
-O Tensorboad pode ser usado para comparar o desempenho de modelos que usam parametros diferentes para treinamento.
+O Tensorboad pode ser usado para comparar o desempenho de modelos que usam parâmetros diferentes para treinamento.
 
 ## Mais sobre Tensorflow
 Quer aprender mais sobre o Tensorflow? Então, adicione essa página aos seus favoritos e acompanhe esta série de 6 posts inspirado no livro *Deep learning with python* usando o pacote de alto nível `tf.keras` incluído no Tensorflow. Essa série também está incluída na documentação sua documentação oficial em inglês, mas aqui, você terá a conveniência de lê-la em português e com o capítulo adicional relacionado ao processo de instalação.
@@ -77,11 +77,11 @@ Quer aprender mais sobre o Tensorflow? Então, adicione essa página aos seus fa
 *Deep learning with python* introduz o campo de aprendizado profundo usando a linguagem Python e a biblioteca Keras. O autor do livro, François Chollet, é pesquisador do Google AI e criador da biblioteca Keras.
 
 Os seguintes tópicos serão abordados nessa série:
-1. [Instalação do Tensorflow][instalacao].
- - [parte 1 - instalando o Tensorflow no Ubuntu] [ubuntu]
- - [parte 2 - instalando o Tensorflow no macOs] [macOs]
- - [parte 3 - instalando o Tensorflow no Windows] [windows]
- - [parte 4 - instalando o Tensorflow no Raspberry Pi] [raspberry]
+1. Instalação do Tensorflow.
+ - parte 1 - instalando o Tensorflow no Ubuntu
+ - parte 2 - instalando o Tensorflow no macOs
+ - parte 3 - instalando o Tensorflow no Windows
+ - parte 4 - instalando o Tensorflow no Raspberry Pi
 2. Classificação básica.
 3. Classificação de texto.
 4. Regressão.
