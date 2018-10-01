@@ -37,13 +37,13 @@ Na versão atual do Tensorflow, você escreve um código para construir um grafo
 
 ### Execução ávida.
 
-A execução anciosa (Eager Execution) é um estilo imperativo de escrever códigos no Tensorflow. Quando a execução anciosa está habilitada, você estará executando o sobre o núcleo do Tensorflow, ao invés de de criar grafos para serem executados posteriormente.
+A execução ávida (Eager Execution) é um estilo imperativo de escrever códigos no Tensorflow. Quando a execução ávida está habilitada, você estará executando o sobre o núcleo do Tensorflow, ao invés de de criar grafos para serem executados posteriormente.
 Isso é importante por algumas resões:
 * Você inspecionar e corrigir bugs em seu grafo facilmente.
 * Você pode usar o fluxo de controle do Python (laços, condicionais, funções, etc...) em conjunto com a API do Tensorflow.
-* É mais fácil construir e treinar grafos com a execução anciosa.
+* É mais fácil construir e treinar grafos com a execução ávida.
 
-Uma vez que já experimentou a execução anciosa do Tensorflow, você pode converter seu código para a versão normal automaticamente. Seus grafos serão salvos e distribuidos com mais facilidade.
+Uma vez que já experimentou a execução ávida do Tensorflow, você pode converter seu código para a versão normal automaticamente. Seus grafos serão salvos e distribuidos com mais facilidade.
 
 ### Modelos código aberto do Tensorflow
 O equipe do Tensorflow disponibiliza vários modelos com código fonte aberto no repositório [tensorflow/models][repo]. Muitos dos quais, não somente o grafo do modelo é fornecido, mas também os pesos treinados do modelo. Isso quer dizer que você pode tentar esses modelos de imediato sem precisar treiná-los novamente. Outros modelos ainda podem ser melhorados usando o processo chamado de **transferência de aprendizagem**.
