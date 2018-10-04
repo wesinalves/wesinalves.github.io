@@ -16,9 +16,9 @@ O Tensorflow foi construído e testado tanto para **laptop** quanto para **deskt
 * Windows 7 or later.
 * Raspbian 9.0 or later.
 
-Segundo a documentação oficial, ele pode ser instalado em outros sistemas operaiconais, mas não há garantia nem suporte em outras configurações.
+Segundo a documentação oficial, ele pode ser instalado em outros sistemas operacionais, mas não há garantia nem suporte em outras configurações.
 
-Este guia de instalação será dividido 5 partes para não ficar muito longo:
+Este guia de instalação será dividido 4 partes para não ficar muito longo:
 
 * [parte 1 - instalando o Tensorflow no Ubuntu] [ubuntu]
 * [parte 2 - instalando o Tensorflow no macOs] [macOs]
