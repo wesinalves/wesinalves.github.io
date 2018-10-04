@@ -4,7 +4,6 @@ title:  "Treinando sua primeira rede neural para uma tarefa de classficação si
 date:   2018-10-04 10:43:14 -0300
 categories: tensorflow
 ---
-## Treinando sua primeira rede neural para uma tarefa de classficação simples
 
 Olá, seja bem vindo(a) a mais um tópico na série de estudo sobre Tensorflow. Finalmente, iremos colocar a mão no massa e codificar nossa primeira rede neural para uma tarefa de classificação simples. Espero que você já tenha preparado seu ambiente para rodar os scripts, senão, confira os links ao final do post e siga a opção desejada.
 Antes de continuar, você precisa estar familiarizado com os conceitos de aprendizado de máquina. Uma boa referência é o [machine learning crash course][course] produzido pela google.
@@ -15,6 +14,8 @@ O objetivo deste post é treinar um modelo de rede neural para classificar image
 * explorar e preprocessar os dados de treinamento
 * construir seu modelo com o TensorFlow
 * treinar, avaliar e fazer predições com seu modelo.
+
+## Importando pacotes necessários
 
 Vamos usar o pacote `tf.keras`, uma api de alto nível do TensorFlow para construir e treinar o modelo.
 O trecho do código a seguir importa os pacotes necessários para nosso script rodar tranquilamente.
@@ -295,7 +296,7 @@ plot_image(i, predictions, test_labels, test_images)
 plt.subplot(1,2,2)
 plot_value_array(i, predictions,  test_labels)
 ```
-![sandal]({{"/assests/img/posts/sandal65.png"}})
+![sandal]({{"/assests/img/posts/sanal65.png"}})
 
 Agora vamos plotar várias imagens e suas respectivas predições. Rótolos com predições corretas estão em azul e prdições incorretas estão na cor vermelha. O número dá a porcentagem (de 0 a 100) para cada classe predita.
 ```python
