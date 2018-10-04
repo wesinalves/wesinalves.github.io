@@ -136,7 +136,7 @@ test_images = test_images / 255.0
 ```
 Para mostrar as 25 primeiras imagens com a sua respectiva legenda crie um laço e use os métodos subplot, imshow e xlabel do pacote `matplotlib.pyplot`. Observe que as imagens estão no formato correto e isso significa que estamos prontos para criar e treinar nosso modelo.
 
-```
+```python
 plt.figure(figsize=(10,10))
 for i in range(25):
     plt.subplot(5,5,i+1)
@@ -358,7 +358,7 @@ np.argmax(predictions_single[0])
 9
 ```
 
-## Summary
+## Resumo
 Neste post, você acompanhou o passo a passo de como criar e treinar seu primeiro modelo de aprendizado de máquina para classificar uma base de dados de vestuário utilizando o biblioteca de alto nível Keras que acompanha o TensorFlow.
 Os tópicos que você aprendeu foram:
 * Como explorar seu conjunto de dados de modo que você tenha um entendimento melhor dos dados que você tem em mãos para treinar seu modelo
