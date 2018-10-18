@@ -155,7 +155,7 @@ O processo de criação de um modelo baseado em rede neural consiste basicamente
 Uma rede neural artificial é formado por um conjunto de camadas. Essas camadas extraem representações dos dados de entrada que tendem a ser mais significativas para a resolução do problema.
 
 A maioria dos modelos em aprendizado profundo consiste no encadeamento de várias camadas simples. Um exemplo é o encadeamento de camadas do tipo `tf.keras.layers.Dense` que possuem neurônios que são atualizados durante o treinamento.
-Você pode construir um emcadeamento de camadas usando o módulo `keras.Sequential` e passar as camadas desejadas como argumento:
+Você pode construir um encadeamento de camadas usando o módulo `keras.Sequential` e passar as camadas desejadas como argumento:
 ```python
 model = keras.Sequential([
     keras.layers.Flatten(input_shape=(28, 28)),
