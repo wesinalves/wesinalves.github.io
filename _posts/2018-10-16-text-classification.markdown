@@ -14,7 +14,7 @@ O conjunto de dados IMDB será usado para treinamento do modelo. O IMDB contém 
 
 O objetivo deste post é treinar um modelo de rede neural para classificação texto relacionado a avaliações de filmes. Ao terminar a leitura, você será capaz de:
 
-* carregar o conjunto de dados IMDB para treinamento
+* carregar o conjunto de dados IMDb para treinamento
 * explorar e preprocessar os dados de treinamento
 * construir seu modelo com o TensorFlow
 * treinar, avaliar e fazer predições com seu modelo.
@@ -405,7 +405,15 @@ Para este caso em particular, poderíamos evitar overfitting simplesmente parand
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 ```
+## Resumo
 
+Neste post, você acompanhou o passo a passo de como criar e treinar um modelo de aprendizado de máquina para classificar uma avaliação de filmes em positiva ou negativa com a base de dados do portal IMDb utilizando o biblioteca de alto nível Keras que acompanha o TensorFlow. Os tópicos que você aprendeu foram:
+
+* Como explorar seu conjunto de dados de modo que você tenha um entendimento melhor dos dados que você tem em mãos para treinar seu modelo
+* Como configurar e compilar seu modelo usando a API de alto nível Keras disponível no TensorFlow
+* Como visualizar o histórico de erros e acurácia de seu modelo
+
+Agradecemos sua visita, e desejamos que tenham gostado do post e que ele possa ter contribuído de alguma forma para sua carreira. Se ficou com alguma dúvida sobre como treinar sua primeira rede neural com o TensorFlow, utilize o espaço reservado para comentários abaixo. Se esse conteúdo foi útili para você, com uma linguagem clara e objetiva, ajude-nos a compartilhar com outras pessoas.
 
 
 
