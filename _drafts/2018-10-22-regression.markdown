@@ -12,7 +12,13 @@ Em um problema de regressão, pretendemos prever a saída que contém um valor c
 
 ![boston]({{"/assests/img/posts/boston.jpg"}})
 
-Este post tem o objetivo de construir um modelo para prever o preço médio das casas em um subúrbio de Boston em meados da década de 1970. Para fazer isso, forneceremos ao modelo alguns pontos de dados sobre o subúrbio, como a taxa de criminalidade e a taxa de imposto sobre a propriedade local.
+Este post tem o objetivo de construir um modelo para prever o preço médio das casas em um subúrbio de Boston em meados da década de 1970. Para fazer isso, forneceremos ao modelo alguns pontos de dados sobre o subúrbio, como a taxa de criminalidade e a taxa de imposto sobre a propriedade local. Ao terminar a leitura, você será capaz de:
+
+* carregar o conjunto de dados Boston housing prices
+* explorar e preprocessar os dados de treinamento
+* construir seu modelo com o TensorFlow
+* treinar, avaliar e fazer predições com seu modelo.
+* Visualizar o histórico de erros e desempenho
 
 Assim como no post anterior, vamos usar o pacote `tf.keras`, uma api de alto nível do TensorFlow para construir e treinar o modelo.
 O trecho do código a seguir importa os pacotes necessários para nosso script rodar tranquilamente.
@@ -283,9 +289,6 @@ Neste post você aprendeu algumas técnicas para lidar com um problema de regres
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 ```
-
-
-
 
 
 [course]: https://developers.google.com/machine-learning/crash-course/ml-intro
