@@ -75,7 +75,7 @@ Como cientista de dados, pense em possíveis benefícios e danos que as previsõ
 **
 
 Use a biblioteca `pandas` para exibir as primeiras linhas do conjunto de dados em uma tabela bem formatada:
-```
+```python
 import pandas as pd
 
 column_names = ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS', 'RAD',
@@ -97,7 +97,7 @@ print(train_labels[0:10])  # Display first 10 entries
 ## Pre-processamento
 
 É recomendado normalizar atributos que usam escalas e intervalos diferentes. Para cada atributo, subtraia a média do recurso e divida pelo desvio padrão:
-```
+```python
 # Test data is *not* used when calculating the mean and std
 
 mean = train_data.mean(axis=0)
@@ -116,7 +116,7 @@ Embora o modelo possa convergir sem a normalização de recursos, isso dificulta
 
 ## Construindo o modelo
 Vamos construir nosso modelo. Aqui, usaremos um modelo sequencial com duas camadas ocultas densamente conectadas e uma camada de saída que retornará um único valor contínuo. As etapas de construção do modelo são agrupadas em uma função, `build_model`, pois criaremos um segundo modelo, mais adiante.
-```
+```python
 def build_model():
   model = keras.Sequential([
     keras.layers.Dense(64, activation=tf.nn.relu,
@@ -153,7 +153,7 @@ _________________________________________________________________
 
 ## Treinando o modelo
 O modelo é treinado para 500 épocas e registra a exatidão de treinamento e validação no objeto de histórico como visto no post anterior.
-```
+```python
 # Display training progress by printing a single dot for each completed epoch
 class PrintDot(keras.callbacks.Callback):
   def on_epoch_end(self, epoch, logs):
@@ -167,7 +167,7 @@ history = model.fit(train_data, train_labels, epochs=EPOCHS,
                     validation_split=0.2, verbose=0,
                     callbacks=[PrintDot()])
 ```
-```
+```python
 import matplotlib.pyplot as plt
 
 
@@ -186,7 +186,7 @@ plot_history(history)
 ```
 Visualize o progresso do treinamento do modelo usando as estatísticas armazenadas no objeto de histórico. A ideia é usar esses dados para determinar quanto tempo treinar antes que o modelo pare de progredir.
 
-```
+```python
 import matplotlib.pyplot as plt
 
 
@@ -204,7 +204,7 @@ def plot_history(history):
 plot_history(history)
 ```
 Este gráfico mostra pouca melhoria no modelo após cerca de 200 épocas. Vamos atualizar o método model.fit para parar automaticamente o treinamento quando a pontuação de validação não melhorar. Usaremos um retorno de chamada que testa uma condição de treinamento para cada época. Se uma determinada quantidade de épocas transcorrer sem mostrar melhoria, ele para automaticamente o treinamento.
-```
+```python
 model = build_model()
 
 # The patience parameter is the amount of epochs to check for improvement
@@ -233,7 +233,7 @@ Testing set Mean Abs Error: $2713.16
 ## Predição
 
 Finalmente, obtenha alguns preços da habitação usando dados no conjunto de testes:
-```
+```python
 test_predictions = model.predict(test_data).flatten()
 
 plt.scatter(test_labels, test_predictions)
@@ -246,7 +246,7 @@ _ = plt.plot([-100, 100], [-100, 100])
 ```
 ![scatter]({{"/assests/img/posts/scatter.png"}})
 
-```
+```python
 error = test_predictions - test_labels
 plt.hist(error, bins = 50)
 plt.xlabel("Prediction Error [1000$]")
