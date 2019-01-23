@@ -45,7 +45,7 @@ Note que o segundo item descreve a habilidade de aprender e não simplesmente de
 * Neurônios são igredientes comuns em todas as rede neurais.
 * É possível compartilhar teorias e algoritmos de aprendizado em diferentes aplicações de redes neurais.
 * As redes podem ser construídas baseadas em módulos.
-9. *Analogia neurobiológica* 
+9. *Analogia neurobiológica*. A analogia neurobiológica é o combustível para os projetos e pesquisas de redes neurais artificiais, comprovando o poder e rapidez do processamento paralelo e tolerante a falha. Os neurobiologistas olhar para as redes neurais artificiais como uma ferramenta de pesquisa no campo de estudo dos neurônios, o os engenheiros olham para a neurobiologia como fonte de inspiração de novas ideias para solucionar problemas mais complexos do que aqueles presentes nas técnicas convencionais.
 
 Um conjunto de tarefas que são bem adequadas a aplicação de redes neurais será apresentado mais adiante.
 
