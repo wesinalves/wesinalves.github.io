@@ -45,13 +45,15 @@ Note que o segundo item descreve a habilidade de aprender e não simplesmente de
 * Neurônios são igredientes comuns em todas as rede neurais.
 * É possível compartilhar teorias e algoritmos de aprendizado em diferentes aplicações de redes neurais.
 * As redes podem ser construídas baseadas em módulos.
-9. *Analogia neurobiológica*. A analogia neurobiológica é o combustível para os projetos e pesquisas de redes neurais artificiais, comprovando o poder e rapidez do processamento paralelo e tolerante a falha. Os neurobiologistas olhar para as redes neurais artificiais como uma ferramenta de pesquisa no campo de estudo dos neurônios, o os engenheiros olham para a neurobiologia como fonte de inspiração de novas ideias para solucionar problemas mais complexos do que aqueles presentes nas técnicas convencionais.
-
-Um conjunto de tarefas que são bem adequadas a aplicação de redes neurais será apresentado mais adiante.
+8. *Analogia neurobiológica*. A analogia neurobiológica é o combustível para os projetos e pesquisas de redes neurais artificiais, comprovando o poder e rapidez do processamento paralelo e tolerante a falha. Os neurobiologistas tem um olhar para as redes neurais artificiais focado como uma ferramenta de pesquisa no campo de estudo dos neurônios, o os engenheiros olham para a neurobiologia como fonte de inspiração de novas ideias para solucionar problemas mais complexos do que aqueles presentes nas técnicas convencionais. Por tanto, conhecer a estrutura neurobiológica humana é de fundamental importancia para as pesquisas na área de redes neurais artificias. A próxima seção irá dar destaque a essa inspiração biológica.
 
 
 ## Inspiração biológica
-Quer aprender mais sobre o Tensorflow? Então, adicione essa página aos seus favoritos e acompanhe esta série de 6 posts inspirado no livro *Deep learning with python* usando o pacote de alto nível `tf.keras` incluído no Tensorflow. Essa série também está incluída na documentação sua documentação oficial em inglês, mas aqui, você terá a conveniência de lê-la em português e com o capítulo adicional relacionado ao processo de instalação.
+(pule essa seção por sua conta e risco, caso você não curta aula de biologia)
+O sistema nervos humano é composto por um *sistema de três estágios* como mostrado no diagrama de blocos da figura x.
+Na parte central do sistema está o cérebro, representado na imagem por uma rede neural (biológica). O cérebro constantemente recebe estímulos externos, analisa, e toma uma decisão apropriada. Dois conjuntos de setas são apresentados na figura. As setas que apontam para a direita demonstram que o sentido do fluxo da informação é avante percorrendo todo o sistema, e as que apontam para a esquerda demonstram que o sentido do fluxo da informação é inverso, ou seja, a rede neural possui um sistema de avaliação (*feedback*).
+Os receptores convertem os estímulos externos recebidos pelos nossos sentidos em impulsos elétricos que carregam a informação para a nossa rede neural (biológica). Os atuadores convertem os impulsos elétricos gerados no cérebro em respostas perceptivas como sáidas do sistema, como por exemplo, movimentar um braço ou uma perna.
+A ideia de que a unidade básico do cérobro humano seria o neurônio foi proposta em 1911 no trabalho de Ramon y Cajál. Geralmente, um neurônio possui um tamanho cinco vezes inferior a um chipe de computador, e processa os estimulos na casa dos mili-segundos, enquanto os chips processam informação na ordem de nano-segundos. Todavia, essa velocidade baixa de processamento é compesado pelo número massivo de neurônios e suas sinapses nervosas. Estima-se que exista aproximadamente 10 bilhões de neurônios no cortéx cerebral, realizando cerca de 60 trilhões de sinapses (Shepherd and Koch, 1990). A eficiência energética do cérebro humano também é algo impressionante, 
 
 
 ## Representação matemática
