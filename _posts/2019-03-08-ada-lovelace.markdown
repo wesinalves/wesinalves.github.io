@@ -4,7 +4,7 @@ title:  "Sete curiosidades sobre Ada Lovelace."
 date:   2019-03-08 14:30:14 -0300
 categories: biography
 ---
-![ada]({{"/assests/img/ada.jpg"}})
+![ada]({{"/assests/img/posts/ada.jpg"}})
 
 
 É bem verdade que a área de teconlogia é dominada por homens, mas foi graças a Ada Lovelace que as primeiras linhas de código foram escritas. Ada ficou conhecida como a primeira programadora da história pelo seu algoritmo para computar a sequência de Bernoulli na máquina analítica de Charles Babbage, reconhecida como o primeiro modelo de um computador.
@@ -25,26 +25,32 @@ Mesmo que sua mãe se esforçasse em afastá-la do pai, muitos diziam que Ada ti
 
 Sem mais delongas, conheça agora sete curiosidades sobre a vida de Ada Lovelace:
 
-1. Escreveu um livro aos doze anos de idade
+### 1. Escreveu um livro aos doze anos de idade
+
 Na época, Ada era obcecada com a ideia de criar mecanismos que voassem. Por isso, escreveu e ilustrou *Flyology*, um livro com suas ideias mais criativas de como alcançar esse objetivo.
 
-2. Ada tinha outras mulheres para se inspirar
+### 2. Ada tinha outras mulheres para se inspirar
 
 Além de sua mãe, Ada era inspirada por Mary Somerville, a primeira mulher a entrar para a Sociedade Real de Astronomia, junto com Caroline Herschel. A famosa astrônoma se tornou amiga e mentora da jovem e foi um canal para que a parceria entre Ada Lovelace e Charles Babbage começasse.
 
-3. Era determinada
+### 3. Era determinada
+
 Aos 17 anos, Ada já sabia que queria trabalhar com o inventor Charles Babbage. A recusa de seus primeiros pedidos para aceitá-la como aluna não a desanimou. Quando o matemático publicou seu artigo sobre a máquina analítica em uma revista suíça, a jovem prontamente o traduziu para o inglês e ainda adicionou notas de rodapé que deixaram o trabalho com o dobro do tamanho. O resultado impressionou Babbage e então começaram a trabalhar juntos.
 
-4. Seu nome tem muitas histórias
+### 4. Seu nome tem muitas histórias
+
 O verdadeiro nome de Ada Lovelace é Augusta Ada King. No entanto, Augusta era o nome de uma das amantes de Lord Byron e, quando Anne descobriu, passou a chamar a filha apenas por Ada. Depois de casada, Ada passou a ter o sobrenome do marido, King, mas ficou conhecida por seu título, condessa de Lovelace.
 
-5. Contraiu câncer de útero
+### 5. Contraiu câncer de útero
+
 Na época, ninguém sabia, mas Ada Lovelace tinha câncer de útero e morreu por causa da doença em 1852, aos 36 anos. Durante muito tempo, foi tratada com diversos opiáceos que a fizeram acreditar que tinha habilidades especiais, “uma percepção intuitiva das coisas ocultas”.
 
-6. Inspirou a criar uma linguagem de programação
+### 6. Inspirou a criar uma linguagem de programação
+
 A linguagem Ada foi criada em sua homenagem na década de 1970, pelo  Departamento de Defesa dos Estados Unidos, mas hoje em dia não é muito usada.
 
-7. Dia da Ada Lovelace
+### 7. Dia da Ada Lovelace
+
 A segunda terça-feira de outubro é conhecida como o Dia da Ada Lovelace, dia de inspirar mulheres a trabalhar na área de tecnologia. Anote no calendário!
 
 
