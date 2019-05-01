@@ -2,6 +2,7 @@
 layout: post
 title:  "Sobre o desafio dos #100DaysOfCode."
 date:   2019-03-08 14:30:14 -0300
+categories: programacao
 ---
 
 Um dia desses eu li um artigo interessante do meu amigo Adriano chamado [A incrível habilidade de dizer não sei][naosei]. Comentei que havia achado muito legal a iniciativa de voltar a escrever textos e que estava planejando voltar a escrever também. Ainda nos comentários, ele me ensinou que não precisamos esperar a oportunidade ideal para começar e me incentivou a fazer o mesmo, sugerindo, inclusive, que eu escrevesse sobre o desafio dos [#100daysofcode][siteoficial] que realizei no ano passado. Pois bem, aceitei a proposta e aqui estou para falar sobre as experiências que tive ao participar desse desafio.
