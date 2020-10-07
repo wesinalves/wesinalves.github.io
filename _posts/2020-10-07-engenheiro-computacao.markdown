@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Como é a rotina de um engenheiro da computação"
+title:  "Como é a rotina de um engenheiro da computação?"
 date:   2020-10-07 10:16:14 -0300
 categories: engenharia
 ---
