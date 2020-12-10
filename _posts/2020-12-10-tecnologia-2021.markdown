@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "2021 e as tecnologias pós-pandemia."
+date:   2020-12-12 09:00:00 -0300
+categories: engenharia
+---
+
+![tech]({{"/assests/img/posts/tech21.jpg"}})
+
+A Organização da Nações Unidas (ONU) avalia que a pandemia do novo coronavírus é o maior desafio vivido pela humanidade desde a segunda guerra mundial. Tudo tem se transformado em formato virtual: escolas, igrejas, bancos, aniversário, compras, etc. Alguns velhos hábitos deixam de fazer sentido, enquanto novos modelos, recursos e comportamentos emergem para conduzir a sociedade. Nesse sentido, podemos afirmar que o ano de 2021 trará grandes avanços tecnológicos, fruto, de forma direta ou indireta, da transformação digital usada para superar o distanciamento social causado pela pandemia. Neste artigo você irá conferir 5 tecnologias relacionadas à transformação digital que irá impactar sua vida no mundo pós-pandemia.
+
+### 5g
+O 5G é a quinta geração das redes móveis, que vem sendo desenvolvida desde os anos 2000, para ser a sucessora da rede 4G. Ela promete maiores velocidades de conexão e download de dados, entre 600 Mb/s a até 2 Gb/s. Após vários anos de desenvolvimento e especulações, entrou em operação em 2019, ainda que de forma bastante limitada.
+Muita gente pensa que a meta do 5G é oferecer uma maior velocidade de conexão de dados para celulares. Mas, a maioria não fará grande uso e nem terá condição de pagar por planos 5G de 2 Gb/s, que no início serão bem caros. A velocidade é muito grande para o usuário médio e as redes acabariam subutilizadas. A verdade é que o 5G está sendo projetado para a realidade da Internet das Coisas, que será discutido no próximo tópico. Hoje, temos cada vez mais dispositivos inteligentes conectados à internet, de geladeiras e microondas, de smartwatches a vestíveis. 
+
+### Internet das Coisas ou Internet of Things (IoT)
+São dispositivos inteligentes interconectados por meio da internet. A ideia principal por trás da Internet das Coisas é a de facilitar a vida dos usuários e clientes, tornando o uso de certos elementos mais simples e até permitindo a automação de tarefas. São exemplos da chamada Internet das Coisas a geladeira que envia imagens do seu interior para um celular ou o relógio que monitora os batimentos cardíacos do paciente e envia relatórios para um médico. Outro exemplo é na agricultura: sensores em máquinas agrícolas podem transmitir para um computador informações sobre o solo, orientando as ações de plantio, correção de acidez e irrigação da terra.
+
+### PIX
+O novo sistema de pagamentos instantâneos brasileiro, chamado de PIX, possui mais de 30 milhões de pessoas cadastradas e mais de 71 milhões de chaves PIX registradas. A tecnologia desenvolvida pelo Banco Central (BC) já está disponível para clientes de 734 bancos, corretoras e instituições financeiras que operam no país.
+O principal objetivo do sistema é aumentar a digitalização das transações financeiras no Brasil. Segundo o BC, a adesão também ajudará a aumentar a competição no mercado financeiro e reduzir o uso de papel moeda. A expectativa do mercado é que o sistema seja o grande substituto de DOCs e TEDs, por ser um sistema gratuito e estar disponível a qualquer hora, sete dias por semana. Mas também servirá para efetuar compras on e offline. Por ser instantâneo, as trocas devem ocorrer em até 10 segundos.  
+
+### Serviços na nuvem
+De maneira resumida, nuvem (tecnológica) é um termo utilizado para descrever uma rede global de servidores, cada um com uma função única. A nuvem não é uma entidade física, mas uma vasta rede de servidores remotos ao redor do globo que são conectados e operam como um único ecossistema. Estes servidores são responsáveis por armazenar e gerenciar dados, executar aplicativos ou fornecer conteúdos ou serviços, como transmissão de vídeos, webmail, software de produtividade ou mídias sociais. Em vez de acessar arquivos e dados do local ou de um PC, você pode acessá-los online, de qualquer dispositivo com acesso à Internet. As informações estarão disponíveis em qualquer lugar, a qualquer hora. São exemplos de nuvem a Amazon Web Service (AWS), Google Cloud, Azure e GovCloud.
+
+### Inteligência Artificial
+Considerada como a nova eletricidade, a Inteligência Artificial é o motor criativo de muitas novidades tecnológicas pós-pandemia. A IA pode ser definida como uma ‘simulação da inteligência humana em máquinas que são programadas para pensar como humanos e imitar suas ações’. Com o agravamento da crise trazida pela pandemia, a utilização de IA passou a se intensificar e hoje ela tem sido adotada nas mais diversas frentes, seja para produzir laudos médicos precisos, condução de carros autônomos, sistemas de recomendações, cidades inteligentes, etc.
+
+### Considerações Finais
+O século XXI já começou, mas algumas pessoas ainda insistem em viver no século XX. Passar horas em uma fila, imprimir grandes quantidades de papel e sacar dinheiro no caixa eletrônico são atividades dispensáveis diante das tecnologias pós-pandemia. Pode parecer complicado em um primeiro momento, mas acredite: o mundo digital veio para ficar. A internet 5G irá servir de base para esse novo mundo conectado, os dispositivos IoT trarão mais conforto no nosso dia a dia, o Pix vai permitir deixarmos nossa carteira em casa, nosso sono será mais tranquilo com os serviços hospedados na nuvem, e o céu será o limite para a nova revolução industrial impulsionada pela inteligência artificial.
+
+
+
