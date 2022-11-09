@@ -287,6 +287,6 @@ conferir as bibliotecas.
 
 [Schwarzschild_metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
 
-[How to take a picture of a black hole | Katie Bouman](https://www.youtube.com/watch?v=BIvezCVcsYs)
+[How to take a picture of a black hole](https://www.youtube.com/watch?v=BIvezCVcsYs)
 
-[How to take a picture of the Milky Way's black hole | Katie Bouman](https://www.youtube.com/watch?v=Ol_SB5Zfv-Y)
+[How to take a picture of the Milky Way's black hole](https://www.youtube.com/watch?v=Ol_SB5Zfv-Y)
